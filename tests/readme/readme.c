@@ -12,27 +12,39 @@ int main(void) {
 	// first argument is a string for the db directory or NULL for in-memory mode
 	err = monetdb_startup(NULL, 0, 0);
 	if (err != 0)
-		error(err)
+	error(err)
 
 	conn = monetdb_connect();
 	if (conn == NULL)
-		error("Connection failed")
+	error("Connection failed")
 
 	err = monetdb_query(conn, "CREATE TABLE test (x integer, y string)", 1,
-	NULL, NULL, NULL);
+						NULL, NULL, NULL);
 	if (err != 0)
-		error(err)
+	error(err)
 
 	err = monetdb_query(conn,
-			"INSERT INTO test VALUES (42, 'Hello'), (NULL, 'World')", 1, NULL,
-			NULL, NULL);
+						"INSERT INTO test VALUES (1, 'Hello'), (3, 'World'), (2, 'World')", 1, NULL,
+						NULL, NULL);
 	if (err != 0)
-		error(err)
+	error(err)
 
-	err = monetdb_query(conn, "SELECT x, y FROM test; ", 1, &result, NULL,
-			NULL);
+	err = monetdb_query(conn, "CREATE TABLE testtwo (x1 integer, y1 string)", 1,
+						NULL, NULL, NULL);
 	if (err != 0)
-		error(err)
+	error(err)
+
+	err = monetdb_query(conn,
+						"INSERT INTO testtwo VALUES (1, 'Hello'), (3, 'World'), (2, 'World')", 1, NULL,
+						NULL, NULL);
+	if (err != 0)
+	error(err)
+
+
+	err = monetdb_query(conn, "SELECT x, y FROM test inner join testtwo on (testtwo.x1 = test.x) ; ", 1, &result, NULL,
+						NULL);
+	if (err != 0)
+	error(err)
 
 	fprintf(stdout, "Query result with %d cols and %d rows\n", (int) result->ncols,
 			(int) result->nrows);
@@ -41,27 +53,27 @@ int main(void) {
 		for (c = 0; c < result->ncols; c++) {
 			monetdb_column* rcol = monetdb_result_fetch(result, c);
 			switch (rcol->type) {
-			case monetdb_int32_t: {
-				monetdb_column_int32_t * col = (monetdb_column_int32_t *) rcol;
-				if (col->data[r] == col->null_value) {
-					printf("NULL");
-				} else {
-					printf("%d", (int) col->data[r]);
+				case monetdb_int32_t: {
+					monetdb_column_int32_t * col = (monetdb_column_int32_t *) rcol;
+					if (col->data[r] == col->null_value) {
+						printf("NULL");
+					} else {
+						printf("%d", (int) col->data[r]);
+					}
+					break;
 				}
-				break;
-			}
-			case monetdb_str: {
-				monetdb_column_str * col = (monetdb_column_str *) rcol;
-				if (col->is_null(col->data[r])) {
-					printf("NULL");
-				} else {
-					printf("%s", (char*) col->data[r]);
+				case monetdb_str: {
+					monetdb_column_str * col = (monetdb_column_str *) rcol;
+					if (col->is_null(col->data[r])) {
+						printf("NULL");
+					} else {
+						printf("%s", (char*) col->data[r]);
+					}
+					break;
 				}
-				break;
-			}
-			default: {
-				printf("UNKNOWN");
-			}
+				default: {
+					printf("UNKNOWN");
+				}
 			}
 
 			if (c + 1 < result->ncols) {

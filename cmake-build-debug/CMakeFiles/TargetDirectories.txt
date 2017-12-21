@@ -1,0 +1,3 @@
+/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/CMakeFiles/MonetDBLite_C.dir

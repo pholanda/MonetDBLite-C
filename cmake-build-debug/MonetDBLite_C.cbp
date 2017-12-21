@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MonetDBLite_C"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MonetDBLite_C">
+				<Option output="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/MonetDBLite_C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/common"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/embedded"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/include"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 MonetDBLite_C"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MonetDBLite_C/fast">
+				<Option output="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/MonetDBLite_C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/common"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/embedded"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/include"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage"/>
+					<Add directory="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 MonetDBLite_C/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/common/fsync.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/common/mutils.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/common/mutils.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/common/stream.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/common/stream.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/common/strptime.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/embedded/embedded.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/embedded/embedded.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/embedded/undef.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_aggr.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_align.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_atomic.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_atoms.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_atoms.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_bat.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_batop.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_bbp.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_bbp.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_calc.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_calc.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_calc_compare.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_calc_private.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_cand.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_cross.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_delta.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_delta.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_firstn.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_group.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_hash.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_hash.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_heap.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_imprints.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_imprints.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_join.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_logger.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_logger.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_orderidx.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_posix.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_posix.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_private.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_project.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_qsort.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_qsort_impl.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_sample.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_search.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_select.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_ssort.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_ssort_impl.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_storage.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_storage.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_system.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_system.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_system_private.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_tm.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_tm.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_unique.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_utils.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_utils.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/gdk/gdk_value.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_atom.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_atom.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_builder.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_builder.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_client.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_client.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_dataflow.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_dataflow.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_errors.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_exception.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_exception.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_function.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_function.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_import.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_import.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_instruction.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_instruction.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_interpreter.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_interpreter.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_linker.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_linker.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_listing.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_listing.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_module.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_module.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_namespace.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_namespace.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_parser.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_parser.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_private.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_resolve.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_resolve.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_runtime.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_runtime.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_scenario.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_scenario.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_session.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_session.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_stack.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_stack.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_type.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_type.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_utils.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/mal/mal_utils.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/aggr.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/algebra.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/algebra.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/bat5.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/bat5.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/batExtensions.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/batExtensions.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/batcalc.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/batmmath.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/batmmath.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/batstr.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/blob.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/blob.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/calc.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/group.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/group.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/iterator.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/iterator.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/language.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/language.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/manifold.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/manifold.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/mat.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/mat.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/mkey.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/mkey.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/mmath.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/mmath.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/mtime.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/mtime.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/orderidx.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/orderidx.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/pcre.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/projectionpath.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/projectionpath.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/sample.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/sample.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/str.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/str.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/tablet.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/modules/tablet.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_aliases.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_aliases.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_candidates.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_candidates.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_coercion.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_coercion.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_commonTerms.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_commonTerms.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_constants.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_constants.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_costModel.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_costModel.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_dataflow.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_dataflow.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_deadcode.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_deadcode.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_emptybind.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_emptybind.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_evaluate.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_evaluate.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_garbageCollector.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_garbageCollector.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_generator.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_generator.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_inline.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_inline.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_macro.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_macro.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_matpack.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_matpack.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_mergetable.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_mergetable.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_mitosis.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_mitosis.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_multiplex.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_multiplex.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_pipes.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_pipes.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_prelude.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_prelude.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_profiler.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_profiler.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_projectionpath.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_projectionpath.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_pushselect.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_pushselect.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_remap.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_remap.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_reorder.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_reorder.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_support.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_support.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/opt_wrapper.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/optimizer.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/optimizer.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/optimizer/optimizer_private.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/mal_backend.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/mal_backend.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/rel_bin.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/rel_bin.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_assert.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_assert.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_bat2time.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_cast.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_cast.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_cast_impl_down_from_flt.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_cast_impl_int.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_cast_impl_up_to_flt.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_cat.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_cat.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_execute.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_execute.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_fround.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_fround_impl.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_gencode.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_gencode.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_optimizer.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_optimizer.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_orderidx.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_orderidx.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_rank.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_rank.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_result.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_result.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_round.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_round_impl.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_scenario.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_scenario.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_statement.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_statement.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_statistics.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_statistics.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_transaction.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_transaction.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_upgrades.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_upgrades.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_user.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/mal/sqlbackend/sql_user.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/monetdb_config.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/monetdb_config.h.in">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common/sql_backend.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common/sql_backend.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common/sql_changeset.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common/sql_hash.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common/sql_keyword.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common/sql_list.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common/sql_mem.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common/sql_stack.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common/sql_string.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common/sql_string.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common/sql_types.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/common/sql_types.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/include/sql_catalog.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/include/sql_hash.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/include/sql_keyword.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/include/sql_list.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/include/sql_mem.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/include/sql_query.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/include/sql_relation.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/include/sql_stack.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_distribute.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_distribute.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_dump.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_dump.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_exp.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_exp.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_optimizer.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_optimizer.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_partition.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_partition.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_planner.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_planner.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_prop.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_prop.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_psm.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_psm.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_rel.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_rel.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_remote.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_remote.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_schema.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_schema.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_select.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_select.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_semantic.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_semantic.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_sequence.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_sequence.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_trans.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_trans.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_updates.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_updates.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_xml.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/rel_xml.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_atom.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_atom.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_datetime.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_datetime.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_decimal.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_decimal.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_env.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_env.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_mvc.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_mvc.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_parser.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_parser.tab.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_parser.tab.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_privileges.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_privileges.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_qc.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_qc.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_scan.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_scan.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_semantic.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_semantic.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_symbol.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/server/sql_symbol.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat/bat_logger.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat/bat_logger.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat/bat_storage.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat/bat_storage.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat/bat_table.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat/bat_table.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat/bat_utils.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat/bat_utils.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat/nop_logger.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat/nop_logger.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat/res_table.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/bat/res_table.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/sql_catalog.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/sql_storage.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/store.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/store_dependency.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/store_dependency.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/store_sequence.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/src/sql/storage/store_sequence.h">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/tests/readme/readme.c">
+			<Option target="MonetDBLite_C"/>
+		</Unit>
+		<Unit filename="/Users/holanda/Documents/Projects/realdeal/MonetDBLite-C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
